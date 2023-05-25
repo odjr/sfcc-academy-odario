@@ -1,0 +1,4 @@
+<isinclude url="${URLUtils.url('ShowProduct-RenderTemplate')}" sf-toolkit="on" />
+
+
+

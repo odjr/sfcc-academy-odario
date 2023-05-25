@@ -1,0 +1,8 @@
+<ismodule template = "components/content/MyContent"
+name = "mycustomtag"
+attribute = "pid"/>
+
+<ismodule template="components/content/contentAsset"
+	name="contentasset"
+	attribute="aid"
+/>

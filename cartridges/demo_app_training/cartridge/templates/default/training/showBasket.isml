@@ -1,0 +1,14 @@
+<isdecorate template="common/layout/page">
+<h1>Basket items whith warranty: </h1>
+ <br />
+<isloop items="${pdict.currentBasket.getAllProductLineItems()}" var="productLineItem" status="loopstatus">
+    ${productLineItem.product.name}<br />
+</isloop>
+<h1>Basket items: </h1>
+<br />
+<isloop items="${pdict.currentBasket.getProductLineItems()}" var="productLineItem" status="loopstatus">
+    ${productLineItem.product.name}<br />
+</isloop>
+${Resource.msgf('text1.text2', 'other', null)}
+${Resource.msgf('text3.text4', 'other', null, 'hello-world')}
+</isdecorate>

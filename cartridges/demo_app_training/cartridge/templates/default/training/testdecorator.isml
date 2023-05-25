@@ -1,0 +1,7 @@
+
+<isset name ="hw" value="${pdict.hw}" scope="page"/>
+
+<isdecorate template="common/layout/page">
+    <h1>${hw}</h1>
+</isdecorate>
+

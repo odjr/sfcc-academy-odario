@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="odario.rjunior@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>8df556fe-0a2c-4df8-a77c-d5f4d151fcbc</external-id>
+        </credentials>
+        <profile>
+            <first-name>Odario</first-name>
+            <last-name>Junior</last-name>
+            <email>odario.rjunior@gmail.com</email>
+            <phone-business>5534996862670</phone-business>
+            <phone-mobile>5534996862670</phone-mobile>
+            <preferred-locale>default</preferred-locale>
+            <preferred-data-locale>none</preferred-data-locale>
+        </profile>
+    </user>
+
+</users>

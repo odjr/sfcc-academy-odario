@@ -1,0 +1,9 @@
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+	<group formid="customer">
+		<field formid="dnome" label="demo.form.dname" mandatory="true" max-length="50" missing-error="error.message.required" range-error="error.message.50orless" type="string" />
+		<field formid="telefone" label="demo.form.phone" mandatory="true" max-length="50" missing-error="error.message.required" range-error="error.message.50orless" type="string" />
+		<field formid="cidade" label="demo.form.city" mandatory="true" max-length="50" missing-error="error.message.required" range-error="error.message.50orless" type="string" />
+		<field formid="email" label="demo.form.email" mandatory="true" max-length="50" missing-error="error.message.required" parse-error="error.message.parse.email.profile.form" range-error="error.message.50orless" regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$" value-error="ValueErrorText" type="string"/>
+		<!-- TODO value-error not comming back from the platform -->
+	</group>
+</form>

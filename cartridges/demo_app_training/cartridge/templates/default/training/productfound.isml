@@ -1,0 +1,5 @@
+
+<isset name="productID" value="${pdict.product.ID}" scope="page"/>
+<h1>${productID}</h1>
+<h2>second</h2>
+<isinclude url="${URLUtils.url('Tile-Show', 'pid', productID, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
