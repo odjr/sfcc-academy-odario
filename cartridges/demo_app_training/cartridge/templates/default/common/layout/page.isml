@@ -16,7 +16,7 @@
         <isinclude template="/components/schema" />
     </head>
     <body>
-
+         <iscomment> slot example </iscomment>
          <isslot id="header_banner" description="…" context="global"/>
         ${dw.system.HookMgr.callHook('app.template.beforeHeader', 'beforeHeader') || ''}
 
